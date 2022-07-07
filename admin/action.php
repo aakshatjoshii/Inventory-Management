@@ -2,10 +2,12 @@
 
 //action.php
 
+
+//new comment
 include '../database_connection.php';
 
 if(isset($_POST["action"]))
-{
+{ 
 	if($_POST["action"] == 'search_book_isbn')
 	{
 		$query = "
